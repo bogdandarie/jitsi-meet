@@ -758,6 +758,7 @@ class Filmstrip extends PureComponent <Props, State> {
      * @returns {ReactElement}
      */
     _renderToggleButton() {
+        
         const icon = this.props._visible ? IconMenuDown : IconMenuUp;
         const { t, classes, _isVerticalFilmstrip } = this.props;
         const actions = isMobileBrowser()
